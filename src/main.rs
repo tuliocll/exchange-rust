@@ -3,7 +3,7 @@ use std::env;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let api_key = "435d4e9f9bed96d21907";
+    let api_key = "";
 
     let args: Vec<String> = env::args().collect();
 
